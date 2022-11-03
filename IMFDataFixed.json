@@ -23,7 +23,7 @@
 "encoding": {
      "x": {
        "field": "Year",
-       "type": "nominal",
+       "type": "temporal",
        "axis": {
          "title": null,
          "grid": false,
