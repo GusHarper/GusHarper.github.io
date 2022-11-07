@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Document</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="W5.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+<body>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="myWeek5">
+        <h1>Data Science for Economists.</h1>
+        
+        <h3>UK Trade - August 2022</h3>
+        <p>Here is a link to my 
+         <a href="https://colab.research.google.com/drive/14NElasgotg6oXnrJmdPhFdcJVbVBYawK?usp=sharing" target="_blank">Collaboratory Workbook</a>
+            used for this weeks task. The following charts show UK Trade Excluding Precious Metals for the month of Augusts, at current market
+            prices.
+
+        </p>
+        <div class="chart" id="Chart1"></div>
+        <div class="chart" id="Chart2"></div>
+        <div class="chart" id="Chart3"></div>
+        <div class="chart" id="Chart4"></div>
+        <div class="chart" id="Chart5"></div>
+        <div class="chart" id="Chart6"></div>
+        <div class="chart" id="Chart7"></div>
+        <div class="chart" id="Chart8"></div>
+        <div class="chart" id="Chart9"></div>
+
+    </div> 
+</body>
+
+<script>
+    //Define charts:
+    var W5Chart1 = "data_ONS_FSIC.json";
+    var W5Chart2 = "data_ONS_FSIF.json";
+    var W5Chart3 = "data_ONS_FSII.json";
+    var W5Chart4 = "data_ONS_FSJ4.json";
+    var W5Chart5 = "data_ONS_FSJ6.json";
+    var W5Chart6 = "data_ONS_FSJ7.json";
+    var W5Chart7 = "data_ONS_FSJ8.json";
+    var W5Chart8 = "data_ONS_FSJ9.json";
+    var W5Chart9 = "data_ONS_FSK2.json";
+   
+    // Embed charts:
+    vegaEmbed('#Chart1', W5Chart1);
+    vegaEmbed('#Chart2', W5Chart2);
+    vegaEmbed('#Chart3', W5Chart3);
+    vegaEmbed('#Chart4', W5Chart4);
+    vegaEmbed('#Chart5', W5Chart5);
+    vegaEmbed('#Chart6', W5Chart6);
+    vegaEmbed('#Chart7', W5Chart7);
+    vegaEmbed('#Chart8', W5Chart8);
+    vegaEmbed('#Chart9', W5Chart9);
+
+
+</script>
+
+</html>
+
+
