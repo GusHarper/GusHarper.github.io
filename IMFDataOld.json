@@ -1,0 +1,40 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+      "text": "IMF Total Credit Outstanding",
+      "subtitle":"IMF Total Credit Outstanding for all members in Billions ($) (Source: IMF, World Bank) ",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+  "data":{"url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/IMFOldData.csv"},
+  
+"transform":[
+{"calculate":  "datum.Totals/1000000", "as": "Millions"}
+],
+  "height": 300,
+  "width": 300,
+
+  "mark": {
+    "type": "bar",
+    "color": "RGB(135,206,235)"},
+
+"encoding": {
+     "x": {
+       "field": "Year",
+       "type": "temporal",
+       "axis": {
+         "title": null,
+         "grid": false,
+         "ticks": true,
+      
+         "labelAngle": 45}},
+
+      "y": {
+        "field": "NewTotals",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": false}}
+}
+}
