@@ -1,0 +1,221 @@
+﻿Area,Year,Value
+Debt Interest,2021,0.042735
+Debt Interest,2020,0.0603448
+Debt Interest,2019,0.0511296
+Debt Interest,2018,0.0507426
+Debt Interest,2017,0.0573566
+Debt Interest,2016,0.0505181
+Debt Interest,2015,0.0469799
+Debt Interest,2014,0.0724044
+Debt Interest,2013,0.0708333
+Debt Interest,2012,0.0673499
+Debt Interest,2011,0.0703235
+Debt Interest,2010,0.0630373
+Debt Interest,2009,0.0416667
+Debt Interest,2008,0.0500808
+Debt Interest,2007,0.0511073
+Debt Interest,2006,0.048913
+Debt Interest,2005,0.0502901
+Debt Interest,2004,0.0494845
+Debt Interest,2003,0.0477223
+Debt Interest,2002,0.0502392
+Other (Including EU Transactions),2021,0.0541311
+Other (Including EU Transactions),2020,0.0625
+Other (Including EU Transactions),2019,0.0689655
+Other (Including EU Transactions),2018,0.0655941
+Other (Including EU Transactions),2017,0.0623441
+Other (Including EU Transactions),2016,0.0634715
+Other (Including EU Transactions),2015,0.0644295
+Other (Including EU Transactions),2014,0.0724044
+Other (Including EU Transactions),2013,0.0736111
+Other (Including EU Transactions),2012,0.0629575
+Other (Including EU Transactions),2011,0.1040788
+Other (Including EU Transactions),2010,0.1045845
+Other (Including EU Transactions),2009,0.1071429
+Other (Including EU Transactions),2008,0.1082391
+Other (Including EU Transactions),2007,0.1005111
+Other (Including EU Transactions),2006,0.1032609
+Other (Including EU Transactions),2005,0.0947776
+Other (Including EU Transactions),2004,0.0907217
+Other (Including EU Transactions),2003,0.0997831
+Other (Including EU Transactions),2002,0.1172249
+Public order and safety,2021,0.0389364
+Public order and safety,2020,0.0409483
+Public order and safety,2019,0.0416171
+Public order and safety,2018,0.0433168
+Public order and safety,2017,0.042394
+Public order and safety,2016,0.0440415
+Public order and safety,2015,0.0456376
+Public order and safety,2014,0.0437158
+Public order and safety,2013,0.0430556
+Public order and safety,2012,0.0468521
+Public order and safety,2011,0.0464135
+Public order and safety,2010,0.0501433
+Public order and safety,2009,0.0520833
+Public order and safety,2008,0.0533118
+Public order and safety,2007,0.0562181
+Public order and safety,2006,0.057971
+Public order and safety,2005,0.0599613
+Public order and safety,2004,0.0597938
+Public order and safety,2003,0.0629067
+Public order and safety,2002,0.0574163
+Housing and environment,2021,0.031339
+Housing and environment,2020,0.0344828
+Housing and environment,2019,0.0380499
+Housing and environment,2018,0.0383663
+Housing and environment,2017,0.0448878
+Housing and environment,2016,0.0440415
+Housing and environment,2015,0.0375839
+Housing and environment,2014,0.034153
+Housing and environment,2013,0.0319444
+Housing and environment,2012,0.0307467
+Housing and environment,2011,0.0337553
+Housing and environment,2010,0.038682
+Housing and environment,2009,0.0431548
+Housing and environment,2008,0.0371567
+Housing and environment,2007,0.0374787
+Housing and environment,2006,0.0344203
+Housing and environment,2005,0.0309478
+Housing and environment,2004,0.0329897
+Housing and environment,2003,0.0433839
+Housing and environment,2002,0.0478469
+"Industry, agriculture, and employment ",2021,0.0664767
+"Industry, agriculture, and employment ",2020,0.0323276
+"Industry, agriculture, and employment ",2019,0.0297265
+"Industry, agriculture, and employment ",2018,0.0284653
+"Industry, agriculture, and employment ",2017,0.0286783
+"Industry, agriculture, and employment ",2016,0.0310881
+"Industry, agriculture, and employment ",2015,0.0322148
+"Industry, agriculture, and employment ",2014,0.023224
+"Industry, agriculture, and employment ",2013,0.0222222
+"Industry, agriculture, and employment ",2012,0.0278184
+"Industry, agriculture, and employment ",2011,0.0281294
+"Industry, agriculture, and employment ",2010,0.0286533
+"Industry, agriculture, and employment ",2009,0.0297619
+"Industry, agriculture, and employment ",2008,0.0355412
+"Industry, agriculture, and employment ",2007,0.0357751
+"Industry, agriculture, and employment ",2006,0.0380435
+"Industry, agriculture, and employment ",2005,0.0386847
+"Industry, agriculture, and employment ",2004,0.0391753
+"Industry, agriculture, and employment ",2003,0.0368764
+"Industry, agriculture, and employment ",2002,0.0406699
+Defence,2021,0.0569801
+Defence,2020,0.0592672
+Defence,2019,0.0618312
+Defence,2018,0.0606436
+Defence,2017,0.0598504
+Defence,2016,0.0595855
+Defence,2015,0.0604027
+Defence,2014,0.0519126
+Defence,2013,0.0555556
+Defence,2012,0.057101
+Defence,2011,0.0562588
+Defence,2010,0.0573066
+Defence,2009,0.0565476
+Defence,2008,0.0533118
+Defence,2007,0.0545145
+Defence,2006,0.0525362
+Defence,2005,0.0541586
+Defence,2004,0.0556701
+Defence,2003,0.0585683
+Defence,2002,0.0574163
+Education,2021,0.1177588
+Education,2020,0.125
+Education,2019,0.1224732
+Education,2018,0.1262376
+Education,2017,0.1271821
+Education,2016,0.1321243
+Education,2015,0.1328859
+Education,2014,0.1338798
+Education,2013,0.1347222
+Education,2012,0.1332357
+Education,2011,0.1251758
+Education,2010,0.1275072
+Education,2009,0.1309524
+Education,2008,0.1324717
+Education,2007,0.1311755
+Education,2006,0.1322464
+Education,2005,0.131528
+Education,2004,0.1319588
+Education,2003,0.1279826
+Education,2002,0.1291866
+Transport,2021,0.0484331
+Transport,2020,0.0474138
+Transport,2019,0.0439952
+Transport,2018,0.0433168
+Transport,2017,0.0461347
+Transport,2016,0.0375648
+Transport,2015,0.0389262
+Transport,2014,0.0314208
+Transport,2013,0.0291667
+Transport,2012,0.0322108
+Transport,2011,0.0323488
+Transport,2010,0.0315186
+Transport,2009,0.0342262
+Transport,2008,0.0339257
+Transport,2007,0.0340715
+Transport,2006,0.0380435
+Transport,2005,0.0386847
+Transport,2004,0.0371134
+Transport,2003,0.0347072
+Transport,2002,0.0334928
+Social Protection,2021,0.2867996
+Social Protection,2020,0.3071121
+Social Protection,2019,0.3043995
+Social Protection,2018,0.3118812
+Social Protection,2017,0.3054863
+Social Protection,2016,0.3108808
+Social Protection,2015,0.3114094
+Social Protection,2014,0.3032787
+Social Protection,2013,0.3055556
+Social Protection,2012,0.3030747
+Social Protection,2011,0.2812939
+Social Protection,2010,0.277937
+Social Protection,2009,0.28125
+Social Protection,2008,0.273021
+Social Protection,2007,0.274276
+Social Protection,2006,0.2735507
+Social Protection,2005,0.2823985
+Social Protection,2004,0.2886598
+Social Protection,2003,0.2928416
+Social Protection,2002,0.2751196
+Personal social services,2021,0.0379867
+Personal social services,2020,0.0387931
+Personal social services,2019,0.0404281
+Personal social services,2018,0.039604
+Personal social services,2017,0.0399003
+Personal social services,2016,0.0388601
+Personal social services,2015,0.0402685
+Personal social services,2014,0.0423497
+Personal social services,2013,0.0430556
+Personal social services,2012,0.0483163
+Personal social services,2011,0.045007
+Personal social services,2010,0.0458453
+Personal social services,2009,0.046131
+Personal social services,2008,0.0436187
+Personal social services,2007,0.0477002
+Personal social services,2006,0.0471015
+Personal social services,2005,0.0444874
+Personal social services,2004,0.0453608
+Personal social services,2003,0.0368764
+Personal social services,2002,0.0358852
+Health,2021,0.2184236
+Health,2020,0.1918104
+Health,2019,0.1973841
+Health,2018,0.1918317
+Health,2017,0.1857855
+Health,2016,0.1878238
+Health,2015,0.1892617
+Health,2014,0.1912569
+Health,2013,0.1902778
+Health,2012,0.1903368
+Health,2011,0.1772152
+Health,2010,0.1747851
+Health,2009,0.1770833
+Health,2008,0.1793215
+Health,2007,0.1771721
+Health,2006,0.173913
+Health,2005,0.1740812
+Health,2004,0.1690722
+Health,2003,0.1583514
+Health,2002,0.1555024
