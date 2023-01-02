@@ -1,0 +1,57 @@
+{
+
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"width":800,
+"height":600,
+
+"title": {
+  "text": "Median Income by State",
+  "subtitle": "Median Income by State 2022 (Source: World Population Review)",
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize":10,
+  "color": "black",
+  "anchor":"start"
+  },
+
+
+"data":{
+  "url":"https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/geoUSStates.json",
+  "format":{"property":"features"}},
+  
+    "projection":{
+      "type":"albersUsa"
+    },
+
+"transform":[
+  {
+    "lookup": "properties.NAME",
+
+    "from":{
+         "data":{
+          "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/MedianIncomeByState.csv"},
+      "key":"State",
+      "fields": ["Median Income"]
+          }
+       }
+  ],
+
+  "mark":{
+    "type": "geoshape",
+   
+    "stroke":"darkgray",
+    "strokeWidth":0.5
+  },
+
+"encoding":{
+
+    "color":{
+      "field":"Median Income",
+      "type": "quantitative"
+    },
+  "tooltip":[
+    {"field":"properties.NAME","type":"nominal","title":"State"},
+    {"field":"Median Income","type":"quantitative","title":"Median Income ($)"}
+  ]
+}
+}
+

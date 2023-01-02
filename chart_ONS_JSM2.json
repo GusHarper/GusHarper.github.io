@@ -1,0 +1,3004 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": "Creative Arts and Entertainment",
+      "subtitle": "Creative Arts and Entertainment Services (Source: ONS)",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize":10,
+      "color": "black",
+      "anchor":"start"
+      },
+      "height":250,
+      "width":250
+    
+    ,
+    "data": {
+      "values": [
+          {
+              "date": "1998 JAN",
+              "label": "1998 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "399.7",
+              "year": "1998"
+          },
+          {
+              "date": "1998 FEB",
+              "label": "1998 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "338.0",
+              "year": "1998"
+          },
+          {
+              "date": "1998 MAR",
+              "label": "1998 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "291.3",
+              "year": "1998"
+          },
+          {
+              "date": "1998 APR",
+              "label": "1998 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "279.4",
+              "year": "1998"
+          },
+          {
+              "date": "1998 MAY",
+              "label": "1998 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "311.4",
+              "year": "1998"
+          },
+          {
+              "date": "1998 JUN",
+              "label": "1998 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "376.8",
+              "year": "1998"
+          },
+          {
+              "date": "1998 JUL",
+              "label": "1998 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "455.1",
+              "year": "1998"
+          },
+          {
+              "date": "1998 AUG",
+              "label": "1998 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "507.5",
+              "year": "1998"
+          },
+          {
+              "date": "1998 SEP",
+              "label": "1998 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "520.3",
+              "year": "1998"
+          },
+          {
+              "date": "1998 OCT",
+              "label": "1998 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "492.5",
+              "year": "1998"
+          },
+          {
+              "date": "1998 NOV",
+              "label": "1998 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "445.8",
+              "year": "1998"
+          },
+          {
+              "date": "1998 DEC",
+              "label": "1998 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "398.3",
+              "year": "1998"
+          },
+          {
+              "date": "1999 JAN",
+              "label": "1999 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "364.1",
+              "year": "1999"
+          },
+          {
+              "date": "1999 FEB",
+              "label": "1999 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "352.0",
+              "year": "1999"
+          },
+          {
+              "date": "1999 MAR",
+              "label": "1999 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "360.5",
+              "year": "1999"
+          },
+          {
+              "date": "1999 APR",
+              "label": "1999 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "382.7",
+              "year": "1999"
+          },
+          {
+              "date": "1999 MAY",
+              "label": "1999 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "397.6",
+              "year": "1999"
+          },
+          {
+              "date": "1999 JUN",
+              "label": "1999 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "395.4",
+              "year": "1999"
+          },
+          {
+              "date": "1999 JUL",
+              "label": "1999 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "377.1",
+              "year": "1999"
+          },
+          {
+              "date": "1999 AUG",
+              "label": "1999 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "364.9",
+              "year": "1999"
+          },
+          {
+              "date": "1999 SEP",
+              "label": "1999 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "369.9",
+              "year": "1999"
+          },
+          {
+              "date": "1999 OCT",
+              "label": "1999 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "392.2",
+              "year": "1999"
+          },
+          {
+              "date": "1999 NOV",
+              "label": "1999 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "411.1",
+              "year": "1999"
+          },
+          {
+              "date": "1999 DEC",
+              "label": "1999 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "415.8",
+              "year": "1999"
+          },
+          {
+              "date": "2000 JAN",
+              "label": "2000 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "403.8",
+              "year": "2000"
+          },
+          {
+              "date": "2000 FEB",
+              "label": "2000 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "387.8",
+              "year": "2000"
+          },
+          {
+              "date": "2000 MAR",
+              "label": "2000 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "377.1",
+              "year": "2000"
+          },
+          {
+              "date": "2000 APR",
+              "label": "2000 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "376.1",
+              "year": "2000"
+          },
+          {
+              "date": "2000 MAY",
+              "label": "2000 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "381.6",
+              "year": "2000"
+          },
+          {
+              "date": "2000 JUN",
+              "label": "2000 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "389.7",
+              "year": "2000"
+          },
+          {
+              "date": "2000 JUL",
+              "label": "2000 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "397.9",
+              "year": "2000"
+          },
+          {
+              "date": "2000 AUG",
+              "label": "2000 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "405.9",
+              "year": "2000"
+          },
+          {
+              "date": "2000 SEP",
+              "label": "2000 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "414.0",
+              "year": "2000"
+          },
+          {
+              "date": "2000 OCT",
+              "label": "2000 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "422.3",
+              "year": "2000"
+          },
+          {
+              "date": "2000 NOV",
+              "label": "2000 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "430.6",
+              "year": "2000"
+          },
+          {
+              "date": "2000 DEC",
+              "label": "2000 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "439.0",
+              "year": "2000"
+          },
+          {
+              "date": "2001 JAN",
+              "label": "2001 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "375.4",
+              "year": "2001"
+          },
+          {
+              "date": "2001 FEB",
+              "label": "2001 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "412.3",
+              "year": "2001"
+          },
+          {
+              "date": "2001 MAR",
+              "label": "2001 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "433.1",
+              "year": "2001"
+          },
+          {
+              "date": "2001 APR",
+              "label": "2001 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "462.1",
+              "year": "2001"
+          },
+          {
+              "date": "2001 MAY",
+              "label": "2001 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "416.8",
+              "year": "2001"
+          },
+          {
+              "date": "2001 JUN",
+              "label": "2001 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "358.2",
+              "year": "2001"
+          },
+          {
+              "date": "2001 JUL",
+              "label": "2001 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "402.0",
+              "year": "2001"
+          },
+          {
+              "date": "2001 AUG",
+              "label": "2001 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "384.5",
+              "year": "2001"
+          },
+          {
+              "date": "2001 SEP",
+              "label": "2001 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "421.3",
+              "year": "2001"
+          },
+          {
+              "date": "2001 OCT",
+              "label": "2001 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "468.5",
+              "year": "2001"
+          },
+          {
+              "date": "2001 NOV",
+              "label": "2001 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "384.4",
+              "year": "2001"
+          },
+          {
+              "date": "2001 DEC",
+              "label": "2001 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "399.8",
+              "year": "2001"
+          },
+          {
+              "date": "2002 JAN",
+              "label": "2002 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "428.4",
+              "year": "2002"
+          },
+          {
+              "date": "2002 FEB",
+              "label": "2002 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "358.6",
+              "year": "2002"
+          },
+          {
+              "date": "2002 MAR",
+              "label": "2002 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "463.5",
+              "year": "2002"
+          },
+          {
+              "date": "2002 APR",
+              "label": "2002 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "450.0",
+              "year": "2002"
+          },
+          {
+              "date": "2002 MAY",
+              "label": "2002 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "421.7",
+              "year": "2002"
+          },
+          {
+              "date": "2002 JUN",
+              "label": "2002 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "430.8",
+              "year": "2002"
+          },
+          {
+              "date": "2002 JUL",
+              "label": "2002 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "400.6",
+              "year": "2002"
+          },
+          {
+              "date": "2002 AUG",
+              "label": "2002 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "403.4",
+              "year": "2002"
+          },
+          {
+              "date": "2002 SEP",
+              "label": "2002 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "432.6",
+              "year": "2002"
+          },
+          {
+              "date": "2002 OCT",
+              "label": "2002 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "475.7",
+              "year": "2002"
+          },
+          {
+              "date": "2002 NOV",
+              "label": "2002 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "413.4",
+              "year": "2002"
+          },
+          {
+              "date": "2002 DEC",
+              "label": "2002 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "485.2",
+              "year": "2002"
+          },
+          {
+              "date": "2003 JAN",
+              "label": "2003 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "403.5",
+              "year": "2003"
+          },
+          {
+              "date": "2003 FEB",
+              "label": "2003 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "424.5",
+              "year": "2003"
+          },
+          {
+              "date": "2003 MAR",
+              "label": "2003 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "481.7",
+              "year": "2003"
+          },
+          {
+              "date": "2003 APR",
+              "label": "2003 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "522.2",
+              "year": "2003"
+          },
+          {
+              "date": "2003 MAY",
+              "label": "2003 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "447.5",
+              "year": "2003"
+          },
+          {
+              "date": "2003 JUN",
+              "label": "2003 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "457.6",
+              "year": "2003"
+          },
+          {
+              "date": "2003 JUL",
+              "label": "2003 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "483.5",
+              "year": "2003"
+          },
+          {
+              "date": "2003 AUG",
+              "label": "2003 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "455.1",
+              "year": "2003"
+          },
+          {
+              "date": "2003 SEP",
+              "label": "2003 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "472.0",
+              "year": "2003"
+          },
+          {
+              "date": "2003 OCT",
+              "label": "2003 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "506.9",
+              "year": "2003"
+          },
+          {
+              "date": "2003 NOV",
+              "label": "2003 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "525.3",
+              "year": "2003"
+          },
+          {
+              "date": "2003 DEC",
+              "label": "2003 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "512.0",
+              "year": "2003"
+          },
+          {
+              "date": "2004 JAN",
+              "label": "2004 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "424.3",
+              "year": "2004"
+          },
+          {
+              "date": "2004 FEB",
+              "label": "2004 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "487.3",
+              "year": "2004"
+          },
+          {
+              "date": "2004 MAR",
+              "label": "2004 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "519.3",
+              "year": "2004"
+          },
+          {
+              "date": "2004 APR",
+              "label": "2004 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "540.5",
+              "year": "2004"
+          },
+          {
+              "date": "2004 MAY",
+              "label": "2004 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "495.4",
+              "year": "2004"
+          },
+          {
+              "date": "2004 JUN",
+              "label": "2004 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "535.0",
+              "year": "2004"
+          },
+          {
+              "date": "2004 JUL",
+              "label": "2004 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "542.6",
+              "year": "2004"
+          },
+          {
+              "date": "2004 AUG",
+              "label": "2004 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "419.1",
+              "year": "2004"
+          },
+          {
+              "date": "2004 SEP",
+              "label": "2004 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "447.0",
+              "year": "2004"
+          },
+          {
+              "date": "2004 OCT",
+              "label": "2004 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "532.8",
+              "year": "2004"
+          },
+          {
+              "date": "2004 NOV",
+              "label": "2004 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "522.2",
+              "year": "2004"
+          },
+          {
+              "date": "2004 DEC",
+              "label": "2004 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "552.3",
+              "year": "2004"
+          },
+          {
+              "date": "2005 JAN",
+              "label": "2005 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "444.2",
+              "year": "2005"
+          },
+          {
+              "date": "2005 FEB",
+              "label": "2005 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "391.7",
+              "year": "2005"
+          },
+          {
+              "date": "2005 MAR",
+              "label": "2005 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "476.5",
+              "year": "2005"
+          },
+          {
+              "date": "2005 APR",
+              "label": "2005 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "509.8",
+              "year": "2005"
+          },
+          {
+              "date": "2005 MAY",
+              "label": "2005 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "483.8",
+              "year": "2005"
+          },
+          {
+              "date": "2005 JUN",
+              "label": "2005 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "503.5",
+              "year": "2005"
+          },
+          {
+              "date": "2005 JUL",
+              "label": "2005 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "512.0",
+              "year": "2005"
+          },
+          {
+              "date": "2005 AUG",
+              "label": "2005 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "477.8",
+              "year": "2005"
+          },
+          {
+              "date": "2005 SEP",
+              "label": "2005 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "490.4",
+              "year": "2005"
+          },
+          {
+              "date": "2005 OCT",
+              "label": "2005 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "549.2",
+              "year": "2005"
+          },
+          {
+              "date": "2005 NOV",
+              "label": "2005 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "486.4",
+              "year": "2005"
+          },
+          {
+              "date": "2005 DEC",
+              "label": "2005 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "533.3",
+              "year": "2005"
+          },
+          {
+              "date": "2006 JAN",
+              "label": "2006 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "433.2",
+              "year": "2006"
+          },
+          {
+              "date": "2006 FEB",
+              "label": "2006 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "389.1",
+              "year": "2006"
+          },
+          {
+              "date": "2006 MAR",
+              "label": "2006 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "491.1",
+              "year": "2006"
+          },
+          {
+              "date": "2006 APR",
+              "label": "2006 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "486.1",
+              "year": "2006"
+          },
+          {
+              "date": "2006 MAY",
+              "label": "2006 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "462.7",
+              "year": "2006"
+          },
+          {
+              "date": "2006 JUN",
+              "label": "2006 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "443.8",
+              "year": "2006"
+          },
+          {
+              "date": "2006 JUL",
+              "label": "2006 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "445.4",
+              "year": "2006"
+          },
+          {
+              "date": "2006 AUG",
+              "label": "2006 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "433.5",
+              "year": "2006"
+          },
+          {
+              "date": "2006 SEP",
+              "label": "2006 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "450.0",
+              "year": "2006"
+          },
+          {
+              "date": "2006 OCT",
+              "label": "2006 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "562.3",
+              "year": "2006"
+          },
+          {
+              "date": "2006 NOV",
+              "label": "2006 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "549.6",
+              "year": "2006"
+          },
+          {
+              "date": "2006 DEC",
+              "label": "2006 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "528.9",
+              "year": "2006"
+          },
+          {
+              "date": "2007 JAN",
+              "label": "2007 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "370.1",
+              "year": "2007"
+          },
+          {
+              "date": "2007 FEB",
+              "label": "2007 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "407.1",
+              "year": "2007"
+          },
+          {
+              "date": "2007 MAR",
+              "label": "2007 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "469.5",
+              "year": "2007"
+          },
+          {
+              "date": "2007 APR",
+              "label": "2007 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "467.2",
+              "year": "2007"
+          },
+          {
+              "date": "2007 MAY",
+              "label": "2007 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "470.2",
+              "year": "2007"
+          },
+          {
+              "date": "2007 JUN",
+              "label": "2007 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "525.4",
+              "year": "2007"
+          },
+          {
+              "date": "2007 JUL",
+              "label": "2007 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "537.2",
+              "year": "2007"
+          },
+          {
+              "date": "2007 AUG",
+              "label": "2007 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "566.1",
+              "year": "2007"
+          },
+          {
+              "date": "2007 SEP",
+              "label": "2007 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "542.2",
+              "year": "2007"
+          },
+          {
+              "date": "2007 OCT",
+              "label": "2007 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "668.3",
+              "year": "2007"
+          },
+          {
+              "date": "2007 NOV",
+              "label": "2007 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "629.4",
+              "year": "2007"
+          },
+          {
+              "date": "2007 DEC",
+              "label": "2007 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "574.8",
+              "year": "2007"
+          },
+          {
+              "date": "2008 JAN",
+              "label": "2008 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "515.1",
+              "year": "2008"
+          },
+          {
+              "date": "2008 FEB",
+              "label": "2008 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "478.5",
+              "year": "2008"
+          },
+          {
+              "date": "2008 MAR",
+              "label": "2008 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "529.0",
+              "year": "2008"
+          },
+          {
+              "date": "2008 APR",
+              "label": "2008 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "605.5",
+              "year": "2008"
+          },
+          {
+              "date": "2008 MAY",
+              "label": "2008 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "480.9",
+              "year": "2008"
+          },
+          {
+              "date": "2008 JUN",
+              "label": "2008 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "452.4",
+              "year": "2008"
+          },
+          {
+              "date": "2008 JUL",
+              "label": "2008 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "556.6",
+              "year": "2008"
+          },
+          {
+              "date": "2008 AUG",
+              "label": "2008 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "523.3",
+              "year": "2008"
+          },
+          {
+              "date": "2008 SEP",
+              "label": "2008 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "476.9",
+              "year": "2008"
+          },
+          {
+              "date": "2008 OCT",
+              "label": "2008 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "534.4",
+              "year": "2008"
+          },
+          {
+              "date": "2008 NOV",
+              "label": "2008 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "491.1",
+              "year": "2008"
+          },
+          {
+              "date": "2008 DEC",
+              "label": "2008 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "480.9",
+              "year": "2008"
+          },
+          {
+              "date": "2009 JAN",
+              "label": "2009 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "482.0",
+              "year": "2009"
+          },
+          {
+              "date": "2009 FEB",
+              "label": "2009 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "474.8",
+              "year": "2009"
+          },
+          {
+              "date": "2009 MAR",
+              "label": "2009 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "505.3",
+              "year": "2009"
+          },
+          {
+              "date": "2009 APR",
+              "label": "2009 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "591.8",
+              "year": "2009"
+          },
+          {
+              "date": "2009 MAY",
+              "label": "2009 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "440.0",
+              "year": "2009"
+          },
+          {
+              "date": "2009 JUN",
+              "label": "2009 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "486.7",
+              "year": "2009"
+          },
+          {
+              "date": "2009 JUL",
+              "label": "2009 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "580.9",
+              "year": "2009"
+          },
+          {
+              "date": "2009 AUG",
+              "label": "2009 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "459.7",
+              "year": "2009"
+          },
+          {
+              "date": "2009 SEP",
+              "label": "2009 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "461.5",
+              "year": "2009"
+          },
+          {
+              "date": "2009 OCT",
+              "label": "2009 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "612.5",
+              "year": "2009"
+          },
+          {
+              "date": "2009 NOV",
+              "label": "2009 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "549.8",
+              "year": "2009"
+          },
+          {
+              "date": "2009 DEC",
+              "label": "2009 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "550.3",
+              "year": "2009"
+          },
+          {
+              "date": "2010 JAN",
+              "label": "2010 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "487.6",
+              "year": "2010"
+          },
+          {
+              "date": "2010 FEB",
+              "label": "2010 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "494.9",
+              "year": "2010"
+          },
+          {
+              "date": "2010 MAR",
+              "label": "2010 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "606.2",
+              "year": "2010"
+          },
+          {
+              "date": "2010 APR",
+              "label": "2010 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "530.4",
+              "year": "2010"
+          },
+          {
+              "date": "2010 MAY",
+              "label": "2010 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "535.2",
+              "year": "2010"
+          },
+          {
+              "date": "2010 JUN",
+              "label": "2010 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "589.9",
+              "year": "2010"
+          },
+          {
+              "date": "2010 JUL",
+              "label": "2010 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "567.4",
+              "year": "2010"
+          },
+          {
+              "date": "2010 AUG",
+              "label": "2010 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "506.4",
+              "year": "2010"
+          },
+          {
+              "date": "2010 SEP",
+              "label": "2010 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "569.7",
+              "year": "2010"
+          },
+          {
+              "date": "2010 OCT",
+              "label": "2010 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "633.3",
+              "year": "2010"
+          },
+          {
+              "date": "2010 NOV",
+              "label": "2010 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "693.3",
+              "year": "2010"
+          },
+          {
+              "date": "2010 DEC",
+              "label": "2010 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "660.8",
+              "year": "2010"
+          },
+          {
+              "date": "2011 JAN",
+              "label": "2011 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "646.1",
+              "year": "2011"
+          },
+          {
+              "date": "2011 FEB",
+              "label": "2011 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "597.7",
+              "year": "2011"
+          },
+          {
+              "date": "2011 MAR",
+              "label": "2011 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "751.1",
+              "year": "2011"
+          },
+          {
+              "date": "2011 APR",
+              "label": "2011 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "610.6",
+              "year": "2011"
+          },
+          {
+              "date": "2011 MAY",
+              "label": "2011 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "619.3",
+              "year": "2011"
+          },
+          {
+              "date": "2011 JUN",
+              "label": "2011 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "665.8",
+              "year": "2011"
+          },
+          {
+              "date": "2011 JUL",
+              "label": "2011 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "569.2",
+              "year": "2011"
+          },
+          {
+              "date": "2011 AUG",
+              "label": "2011 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "502.7",
+              "year": "2011"
+          },
+          {
+              "date": "2011 SEP",
+              "label": "2011 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "603.3",
+              "year": "2011"
+          },
+          {
+              "date": "2011 OCT",
+              "label": "2011 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "686.5",
+              "year": "2011"
+          },
+          {
+              "date": "2011 NOV",
+              "label": "2011 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "674.9",
+              "year": "2011"
+          },
+          {
+              "date": "2011 DEC",
+              "label": "2011 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "667.7",
+              "year": "2011"
+          },
+          {
+              "date": "2012 JAN",
+              "label": "2012 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "581.3",
+              "year": "2012"
+          },
+          {
+              "date": "2012 FEB",
+              "label": "2012 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "559.8",
+              "year": "2012"
+          },
+          {
+              "date": "2012 MAR",
+              "label": "2012 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "696.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 APR",
+              "label": "2012 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "633.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 MAY",
+              "label": "2012 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "659.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 JUN",
+              "label": "2012 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "728.0",
+              "year": "2012"
+          },
+          {
+              "date": "2012 JUL",
+              "label": "2012 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "779.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 AUG",
+              "label": "2012 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "697.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 SEP",
+              "label": "2012 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "718.1",
+              "year": "2012"
+          },
+          {
+              "date": "2012 OCT",
+              "label": "2012 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "806.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 NOV",
+              "label": "2012 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "760.2",
+              "year": "2012"
+          },
+          {
+              "date": "2012 DEC",
+              "label": "2012 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "708.1",
+              "year": "2012"
+          },
+          {
+              "date": "2013 JAN",
+              "label": "2013 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "562.2",
+              "year": "2013"
+          },
+          {
+              "date": "2013 FEB",
+              "label": "2013 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "595.9",
+              "year": "2013"
+          },
+          {
+              "date": "2013 MAR",
+              "label": "2013 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "708.7",
+              "year": "2013"
+          },
+          {
+              "date": "2013 APR",
+              "label": "2013 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "706.0",
+              "year": "2013"
+          },
+          {
+              "date": "2013 MAY",
+              "label": "2013 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "685.7",
+              "year": "2013"
+          },
+          {
+              "date": "2013 JUN",
+              "label": "2013 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "770.0",
+              "year": "2013"
+          },
+          {
+              "date": "2013 JUL",
+              "label": "2013 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "757.5",
+              "year": "2013"
+          },
+          {
+              "date": "2013 AUG",
+              "label": "2013 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "580.6",
+              "year": "2013"
+          },
+          {
+              "date": "2013 SEP",
+              "label": "2013 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "659.0",
+              "year": "2013"
+          },
+          {
+              "date": "2013 OCT",
+              "label": "2013 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "878.3",
+              "year": "2013"
+          },
+          {
+              "date": "2013 NOV",
+              "label": "2013 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "694.1",
+              "year": "2013"
+          },
+          {
+              "date": "2013 DEC",
+              "label": "2013 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "724.7",
+              "year": "2013"
+          },
+          {
+              "date": "2014 JAN",
+              "label": "2014 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "692.8",
+              "year": "2014"
+          },
+          {
+              "date": "2014 FEB",
+              "label": "2014 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "651.4",
+              "year": "2014"
+          },
+          {
+              "date": "2014 MAR",
+              "label": "2014 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "773.4",
+              "year": "2014"
+          },
+          {
+              "date": "2014 APR",
+              "label": "2014 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "676.8",
+              "year": "2014"
+          },
+          {
+              "date": "2014 MAY",
+              "label": "2014 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "660.7",
+              "year": "2014"
+          },
+          {
+              "date": "2014 JUN",
+              "label": "2014 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "637.5",
+              "year": "2014"
+          },
+          {
+              "date": "2014 JUL",
+              "label": "2014 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "621.5",
+              "year": "2014"
+          },
+          {
+              "date": "2014 AUG",
+              "label": "2014 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "574.8",
+              "year": "2014"
+          },
+          {
+              "date": "2014 SEP",
+              "label": "2014 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "633.8",
+              "year": "2014"
+          },
+          {
+              "date": "2014 OCT",
+              "label": "2014 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "723.3",
+              "year": "2014"
+          },
+          {
+              "date": "2014 NOV",
+              "label": "2014 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "659.5",
+              "year": "2014"
+          },
+          {
+              "date": "2014 DEC",
+              "label": "2014 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "747.0",
+              "year": "2014"
+          },
+          {
+              "date": "2015 JAN",
+              "label": "2015 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "652.8",
+              "year": "2015"
+          },
+          {
+              "date": "2015 FEB",
+              "label": "2015 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "698.6",
+              "year": "2015"
+          },
+          {
+              "date": "2015 MAR",
+              "label": "2015 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "856.3",
+              "year": "2015"
+          },
+          {
+              "date": "2015 APR",
+              "label": "2015 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "759.7",
+              "year": "2015"
+          },
+          {
+              "date": "2015 MAY",
+              "label": "2015 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "684.3",
+              "year": "2015"
+          },
+          {
+              "date": "2015 JUN",
+              "label": "2015 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "776.8",
+              "year": "2015"
+          },
+          {
+              "date": "2015 JUL",
+              "label": "2015 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "748.5",
+              "year": "2015"
+          },
+          {
+              "date": "2015 AUG",
+              "label": "2015 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "654.1",
+              "year": "2015"
+          },
+          {
+              "date": "2015 SEP",
+              "label": "2015 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "770.7",
+              "year": "2015"
+          },
+          {
+              "date": "2015 OCT",
+              "label": "2015 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "766.9",
+              "year": "2015"
+          },
+          {
+              "date": "2015 NOV",
+              "label": "2015 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "734.4",
+              "year": "2015"
+          },
+          {
+              "date": "2015 DEC",
+              "label": "2015 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "856.0",
+              "year": "2015"
+          },
+          {
+              "date": "2016 JAN",
+              "label": "2016 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "598.0",
+              "year": "2016"
+          },
+          {
+              "date": "2016 FEB",
+              "label": "2016 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "537.9",
+              "year": "2016"
+          },
+          {
+              "date": "2016 MAR",
+              "label": "2016 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "636.3",
+              "year": "2016"
+          },
+          {
+              "date": "2016 APR",
+              "label": "2016 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "693.0",
+              "year": "2016"
+          },
+          {
+              "date": "2016 MAY",
+              "label": "2016 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "717.4",
+              "year": "2016"
+          },
+          {
+              "date": "2016 JUN",
+              "label": "2016 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "841.7",
+              "year": "2016"
+          },
+          {
+              "date": "2016 JUL",
+              "label": "2016 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "873.9",
+              "year": "2016"
+          },
+          {
+              "date": "2016 AUG",
+              "label": "2016 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "636.9",
+              "year": "2016"
+          },
+          {
+              "date": "2016 SEP",
+              "label": "2016 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "779.5",
+              "year": "2016"
+          },
+          {
+              "date": "2016 OCT",
+              "label": "2016 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2017-12-22T00:00:00.000Z",
+              "value": "803.3",
+              "year": "2016"
+          },
+          {
+              "date": "2016 NOV",
+              "label": "2016 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-01-26T00:00:00.000Z",
+              "value": "793.2",
+              "year": "2016"
+          },
+          {
+              "date": "2016 DEC",
+              "label": "2016 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-02-22T00:00:00.000Z",
+              "value": "930.6",
+              "year": "2016"
+          },
+          {
+              "date": "2017 JAN",
+              "label": "2017 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-03-28T23:00:00.000Z",
+              "value": "732.1",
+              "year": "2017"
+          },
+          {
+              "date": "2017 FEB",
+              "label": "2017 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-04-26T23:00:00.000Z",
+              "value": "596.6",
+              "year": "2017"
+          },
+          {
+              "date": "2017 MAR",
+              "label": "2017 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-05-24T23:00:00.000Z",
+              "value": "787.6",
+              "year": "2017"
+          },
+          {
+              "date": "2017 APR",
+              "label": "2017 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-06-28T23:00:00.000Z",
+              "value": "811.3",
+              "year": "2017"
+          },
+          {
+              "date": "2017 MAY",
+              "label": "2017 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-06-28T23:00:00.000Z",
+              "value": "794.9",
+              "year": "2017"
+          },
+          {
+              "date": "2017 JUN",
+              "label": "2017 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-08-09T23:00:00.000Z",
+              "value": "806.7",
+              "year": "2017"
+          },
+          {
+              "date": "2017 JUL",
+              "label": "2017 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-09-09T23:00:00.000Z",
+              "value": "739.3",
+              "year": "2017"
+          },
+          {
+              "date": "2017 AUG",
+              "label": "2017 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-10-09T23:00:00.000Z",
+              "value": "653.0",
+              "year": "2017"
+          },
+          {
+              "date": "2017 SEP",
+              "label": "2017 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-11-09T00:00:00.000Z",
+              "value": "699.2",
+              "year": "2017"
+          },
+          {
+              "date": "2017 OCT",
+              "label": "2017 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2018-12-10T00:00:00.000Z",
+              "value": "928.2",
+              "year": "2017"
+          },
+          {
+              "date": "2017 NOV",
+              "label": "2017 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-01-11T00:00:00.000Z",
+              "value": "791.9",
+              "year": "2017"
+          },
+          {
+              "date": "2017 DEC",
+              "label": "2017 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-02-11T00:00:00.000Z",
+              "value": "771.9",
+              "year": "2017"
+          },
+          {
+              "date": "2018 JAN",
+              "label": "2018 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-03-12T00:00:00.000Z",
+              "value": "697.1",
+              "year": "2018"
+          },
+          {
+              "date": "2018 FEB",
+              "label": "2018 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-04-09T23:00:00.000Z",
+              "value": "620.5",
+              "year": "2018"
+          },
+          {
+              "date": "2018 MAR",
+              "label": "2018 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-05-09T23:00:00.000Z",
+              "value": "763.3",
+              "year": "2018"
+          },
+          {
+              "date": "2018 APR",
+              "label": "2018 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-05-09T23:00:00.000Z",
+              "value": "823.9",
+              "year": "2018"
+          },
+          {
+              "date": "2018 MAY",
+              "label": "2018 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-07-09T23:00:00.000Z",
+              "value": "793.2",
+              "year": "2018"
+          },
+          {
+              "date": "2018 JUN",
+              "label": "2018 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-08-08T23:00:00.000Z",
+              "value": "929.2",
+              "year": "2018"
+          },
+          {
+              "date": "2018 JUL",
+              "label": "2018 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-09-08T23:00:00.000Z",
+              "value": "1022.5",
+              "year": "2018"
+          },
+          {
+              "date": "2018 AUG",
+              "label": "2018 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-10-09T23:00:00.000Z",
+              "value": "794.3",
+              "year": "2018"
+          },
+          {
+              "date": "2018 SEP",
+              "label": "2018 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-11-11T00:00:00.000Z",
+              "value": "832.9",
+              "year": "2018"
+          },
+          {
+              "date": "2018 OCT",
+              "label": "2018 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2019-12-10T00:00:00.000Z",
+              "value": "1098.0",
+              "year": "2018"
+          },
+          {
+              "date": "2018 NOV",
+              "label": "2018 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-01-13T00:00:00.000Z",
+              "value": "931.6",
+              "year": "2018"
+          },
+          {
+              "date": "2018 DEC",
+              "label": "2018 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-02-11T00:00:00.000Z",
+              "value": "958.5",
+              "year": "2018"
+          },
+          {
+              "date": "2019 JAN",
+              "label": "2019 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-03-11T00:00:00.000Z",
+              "value": "815.2",
+              "year": "2019"
+          },
+          {
+              "date": "2019 FEB",
+              "label": "2019 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-04-08T23:00:00.000Z",
+              "value": "789.9",
+              "year": "2019"
+          },
+          {
+              "date": "2019 MAR",
+              "label": "2019 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-05-12T23:00:00.000Z",
+              "value": "860.7",
+              "year": "2019"
+          },
+          {
+              "date": "2019 APR",
+              "label": "2019 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-06-11T23:00:00.000Z",
+              "value": "822.6",
+              "year": "2019"
+          },
+          {
+              "date": "2019 MAY",
+              "label": "2019 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-07-13T23:00:00.000Z",
+              "value": "811.1",
+              "year": "2019"
+          },
+          {
+              "date": "2019 JUN",
+              "label": "2019 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-08-11T23:00:00.000Z",
+              "value": "914.8",
+              "year": "2019"
+          },
+          {
+              "date": "2019 JUL",
+              "label": "2019 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-09-10T23:00:00.000Z",
+              "value": "913.4",
+              "year": "2019"
+          },
+          {
+              "date": "2019 AUG",
+              "label": "2019 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-10-08T23:00:00.000Z",
+              "value": "758.0",
+              "year": "2019"
+          },
+          {
+              "date": "2019 SEP",
+              "label": "2019 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-11-12T00:00:00.000Z",
+              "value": "776.7",
+              "year": "2019"
+          },
+          {
+              "date": "2019 OCT",
+              "label": "2019 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2020-12-10T00:00:00.000Z",
+              "value": "803.8",
+              "year": "2019"
+          },
+          {
+              "date": "2019 NOV",
+              "label": "2019 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-01-15T00:00:00.000Z",
+              "value": "775.6",
+              "year": "2019"
+          },
+          {
+              "date": "2019 DEC",
+              "label": "2019 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-02-12T00:00:00.000Z",
+              "value": "780.1",
+              "year": "2019"
+          },
+          {
+              "date": "2020 JAN",
+              "label": "2020 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-03-12T00:00:00.000Z",
+              "value": "797.7",
+              "year": "2020"
+          },
+          {
+              "date": "2020 FEB",
+              "label": "2020 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-04-12T23:00:00.000Z",
+              "value": "766.9",
+              "year": "2020"
+          },
+          {
+              "date": "2020 MAR",
+              "label": "2020 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-05-11T23:00:00.000Z",
+              "value": "734.8",
+              "year": "2020"
+          },
+          {
+              "date": "2020 APR",
+              "label": "2020 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-06-10T23:00:00.000Z",
+              "value": "430.0",
+              "year": "2020"
+          },
+          {
+              "date": "2020 MAY",
+              "label": "2020 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-07-08T23:00:00.000Z",
+              "value": "265.4",
+              "year": "2020"
+          },
+          {
+              "date": "2020 JUN",
+              "label": "2020 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-08-11T23:00:00.000Z",
+              "value": "263.4",
+              "year": "2020"
+          },
+          {
+              "date": "2020 JUL",
+              "label": "2020 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-09-09T23:00:00.000Z",
+              "value": "315.8",
+              "year": "2020"
+          },
+          {
+              "date": "2020 AUG",
+              "label": "2020 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-10-12T23:00:00.000Z",
+              "value": "305.2",
+              "year": "2020"
+          },
+          {
+              "date": "2020 SEP",
+              "label": "2020 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-11-11T00:00:00.000Z",
+              "value": "337.5",
+              "year": "2020"
+          },
+          {
+              "date": "2020 OCT",
+              "label": "2020 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2021-12-10T00:00:00.000Z",
+              "value": "406.5",
+              "year": "2020"
+          },
+          {
+              "date": "2020 NOV",
+              "label": "2020 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-01-14T00:00:00.000Z",
+              "value": "396.5",
+              "year": "2020"
+          },
+          {
+              "date": "2020 DEC",
+              "label": "2020 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-02-11T00:00:00.000Z",
+              "value": "464.0",
+              "year": "2020"
+          },
+          {
+              "date": "2021 JAN",
+              "label": "2021 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-03-11T00:00:00.000Z",
+              "value": "317.5",
+              "year": "2021"
+          },
+          {
+              "date": "2021 FEB",
+              "label": "2021 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-04-10T23:00:00.000Z",
+              "value": "265.2",
+              "year": "2021"
+          },
+          {
+              "date": "2021 MAR",
+              "label": "2021 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-05-11T23:00:00.000Z",
+              "value": "364.8",
+              "year": "2021"
+          },
+          {
+              "date": "2021 APR",
+              "label": "2021 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-06-12T23:00:00.000Z",
+              "value": "389.8",
+              "year": "2021"
+          },
+          {
+              "date": "2021 MAY",
+              "label": "2021 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-07-12T23:00:00.000Z",
+              "value": "381.4",
+              "year": "2021"
+          },
+          {
+              "date": "2021 JUN",
+              "label": "2021 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-08-11T23:00:00.000Z",
+              "value": "398.2",
+              "year": "2021"
+          },
+          {
+              "date": "2021 JUL",
+              "label": "2021 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-09-11T23:00:00.000Z",
+              "value": "509.1",
+              "year": "2021"
+          },
+          {
+              "date": "2021 AUG",
+              "label": "2021 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-10-11T23:00:00.000Z",
+              "value": "626.7",
+              "year": "2021"
+          },
+          {
+              "date": "2021 SEP",
+              "label": "2021 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "627.7",
+              "year": "2021"
+          },
+          {
+              "date": "2021 OCT",
+              "label": "2021 OCT",
+              "month": "October",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "797.1",
+              "year": "2021"
+          },
+          {
+              "date": "2021 NOV",
+              "label": "2021 NOV",
+              "month": "November",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "804.1",
+              "year": "2021"
+          },
+          {
+              "date": "2021 DEC",
+              "label": "2021 DEC",
+              "month": "December",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "792.1",
+              "year": "2021"
+          },
+          {
+              "date": "2022 JAN",
+              "label": "2022 JAN",
+              "month": "January",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "567.7",
+              "year": "2022"
+          },
+          {
+              "date": "2022 FEB",
+              "label": "2022 FEB",
+              "month": "February",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "757.1",
+              "year": "2022"
+          },
+          {
+              "date": "2022 MAR",
+              "label": "2022 MAR",
+              "month": "March",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "1009.7",
+              "year": "2022"
+          },
+          {
+              "date": "2022 APR",
+              "label": "2022 APR",
+              "month": "April",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "806.2",
+              "year": "2022"
+          },
+          {
+              "date": "2022 MAY",
+              "label": "2022 MAY",
+              "month": "May",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "855.2",
+              "year": "2022"
+          },
+          {
+              "date": "2022 JUN",
+              "label": "2022 JUN",
+              "month": "June",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "1148.6",
+              "year": "2022"
+          },
+          {
+              "date": "2022 JUL",
+              "label": "2022 JUL",
+              "month": "July",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "996.6",
+              "year": "2022"
+          },
+          {
+              "date": "2022 AUG",
+              "label": "2022 AUG",
+              "month": "August",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "910.9",
+              "year": "2022"
+          },
+          {
+              "date": "2022 SEP",
+              "label": "2022 SEP",
+              "month": "September",
+              "quarter": "",
+              "sourceDataset": "IOS1",
+              "updateDate": "2022-11-11T00:00:00.000Z",
+              "value": "1107.2",
+              "year": "2022"
+          }
+      ]
+      
+      
+      
+      
+      
+      
+      
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "date", "type": "temporal", "title":"Date"},
+      "y": {"field": "value", "type": "quantitative","title": "Output (£M)"}
+    }
+  
+  
+  }
+  

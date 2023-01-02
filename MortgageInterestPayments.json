@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/MortgagePercentChange(reformatted).csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Date", "type": "temporal"},
+      "y": {"field": "Change", "type": "quantitative"}
+    },
+    "height":300,
+    "width":300,
+    "title": {
+      "text": "Mortgage Interest Payments % Change 12 Months.",
+      "subtitle": [
+        "Morgtage Interest Payments % Change Over 12 Months. Source:(ONS)"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitlePadding": 5,
+      "anchor": "start",
+      "color": "black"
+    }
+  }
+  

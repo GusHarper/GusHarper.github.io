@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "GDP Growth and Expenditure on Education",
+      "subtitle": "Regression of Average GDP Growth Rate and Average Spending on Education (% Of Total Expenditure). Source: World Bank",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "fontSize": 12,
+      "color": "black" },
+  
+    "height": 400,
+    "width": 600,
+    "layer": [
+      {"data": {"url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/Regression%20Data.csv"},
+  
+        "mark": {"type": "point", "size": 100, "filled": true},
+        "encoding": {
+          "x": {
+            "field": "Spending2002_2007",
+            "type": "quantitative",
+            "title": "Average Government Expenditure on Education 2002-2007 (%)",
+            "scale": {"domain": [5, 27]},
+            "axis": {
+              "titleColor": "black",
+              "titleFontSize": 12,
+              "titleFontWeight": "normal",
+              "grid": false
+            }
+          },
+          "y": {
+            "field": "GDP2012_2017",
+            "type": "quantitative",
+            "title": "Average GDP Growth 2012-2017 (%)",
+            "scale": {"domain": [-3, 10]},
+            "axis": {
+              "titleColor": "black",
+              "titleFontSize": 12,
+              "titleFontWeight": "normal",
+              "grid": false
+            }
+          },
+          "tooltip": [
+            {"field": "Country", "type": "nominal", "title": "Country"},
+            {"field": "GDP2012_2017", "type": "nominal", "title": "Avg GDP Growth (%)"},
+            {"field": "Spending2002_2007", "type": "nominal", "title": "Avg Expenditure on Education"},
+            {"field": "Region", "type": "nominal", "title": "Region"}
+              
+          ],
+          "color": {
+            "field": "Region", "type": "nominal", "title": "Region",
+            "scale": {"scheme": "darkgreen"},
+            "legend": {
+              "orient": "right",
+              "labelFontSize": 10,
+              "titleFontSize": 12,
+              "titleFontWeight": "normal"
+            }
+          }
+        }
+      },
+    
+      {"data": {"url":"https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/Regression%20Data.csv"},
+  
+        "mark": {"type": "line", "color":"#2184a0"},
+        "transform": [{"regression": "GDP2012_2017", "on": "Spending2002_2007","extent":[4,28]}],
+        "encoding": {
+          "x": {"field": "Spending2002_2007", "type": "quantitative"},
+          "y": {"field": "GDP2012_2017", "type": "quantitative"}
+        }
+      },
+  
+      {"data": {"url":"https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/Regression%20Data.csv"},
+        "transform": [
+          {"regression": "GDP2012_2017", "on": "Spending2002_2007", "params": true},
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "#11414f",
+          "x": 450,
+          "align": "left",
+          "y": -5
+        },
+        "encoding": {"text": {"type": "nominal", "field": "R2"}}
+      }
+    ]
+  }

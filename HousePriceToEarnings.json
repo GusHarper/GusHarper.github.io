@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/House%20Price%20to%20residence%20based%20Earnings.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+  
+      "y": {"field": "Ratio", "type": "quantitative"}
+    },
+    "height":300,
+    "width":300,
+    "title": {
+      "text": "House Price to Residence Based Earnings.",
+      "subtitle": [
+        "Ratio of House prices to gross annual residence-based earnings. Source:(ONS)"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitlePadding": 5,
+      "anchor": "start",
+      "color": "black"
+    }
+  }
+  
