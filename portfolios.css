@@ -23,12 +23,10 @@ h1, h3, p{
     text-align: center;
 }
     
-.myWeek1{
+.myPortfolios{
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     background-color: rgb(187, 203, 230);
-
-      
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -38,13 +36,60 @@ h1, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
+    align-items: center;
     background-color: white;
     width:450px;
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(153, 152, 152);
-    
+}
+.chartW5{
+        
+     background-color: white;
+     width:330px;
+     border-width: 3px;
+     border-style: solid;
+     border-radius: 10px;
+     border-color: rgb(153, 152, 152);
 }
     
+.chartW7{
+        
+    background-color: white;
+    width:920px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(153, 152, 152);
+}
 
+   
+.chartW8{
+        
+    background-color: white;
+    width:400px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(153, 152, 152);
+}
+
+.chartW9{
+        
+    background-color: white;
+    width:480px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(153, 152, 152);
+}
+.chartW9_2{
+        
+    background-color: white;
+    width:800px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(153, 152, 152);
+}
