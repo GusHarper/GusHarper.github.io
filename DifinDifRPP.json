@@ -5,7 +5,7 @@
      "text": [
       "Educational Reform and Public School Spending"
     ],
-    "subtitle": "Adjusted revenues / pupil, elementary and secondary education. Source: (NCES + U.S Census Bureau) ",
+    "subtitle": "Adjusted revenues per pupil for elementary and secondary education. Source: (NCES + U.S Census Bureau) ",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -13,7 +13,7 @@
   },
 
   "height": 300,
-  "width": 400,
+  "width": 500,
   "config": {
     "view": {"stroke": "transparent"}
  
@@ -73,7 +73,7 @@
             "title": "Date"
            
           },
-          {"field": "rpp", "type": "quantitative", "title": "Revenue Per Pupil ($)"}
+          {"field": "rpp", "type": "quantitative", "title": "Measure"}
           
         ]
       }

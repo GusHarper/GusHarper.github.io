@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "title": {
+    "text": [
+      "Enrollment in Educational Across The Globe"
+    ],
+    "subtitle": "Primary, Secondary, and Tertiary Enrollment WorldWide. Government Spending on Education as a % of Government Expenditure. Figures as of 2017 (Source: WorldBank) ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 700,
+  "height": 400,
+  "background": null,
+  "config": {"style": {"cell": {"stroke": "transparent"}}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/EducationDataFinal.csv"
+  },
+
+  "transform": [
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/GlobalMapRAW.json",
+          "format": {"type": "topojson", "feature": "countries"}
+        },
+        "key": "properties.name",
+        "fields": ["properties", "type", "geometry"]
+      }
+    },
+    {"calculate": "datum[Select]","as": "varSelected"}],
+
+
+    "params": [
+      {"name": "Select",
+        "value": "Spending",
+        "bind": {
+          "input": "select",
+          "options": [
+            "PrimaryEducation",
+            "SecondaryEducation",
+            "TertiaryEducation",
+            "Spending"
+            ]
+          }
+        }
+        ],
+
+  "projection": {"type": "equalEarth"},
+  "mark": "geoshape",
+
+
+  "encoding": {
+    "color": {
+      "field": "varSelected", "type": "quantitative",
+    "legend":{"title":null, "orient":"right","direction":"vertical"}
+        },
+  
+  "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title":    "Country"},
+
+      {"field": "PrimaryEducation", "type": "quantitative", "title": "Net Primary Enrollment"},
+
+      {"field": "SecondaryEducation", "type": "quantitative", "title": "Net Secondary Enrollment"},
+
+      {"field": "TertiaryEducation", "type": "quantitative", "title": "Gross Tertiary Enrollment"},
+
+      {"field": "Spending", "type": "quantitative", "title":"Expenditure on Education"}
+   
+    ]
+  }
+}
+  
+
