@@ -1,0 +1,118 @@
+
+
+/* FONTS: */
+
+h1{
+    font-family:'Roboto','sans-serif';
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 80px;
+}
+
+h2{
+font-family:'Roboto','sans-serif';
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+/* AREAS OF THE PAGE */
+
+body {
+    background: linear-gradient(-45deg,#0d1426,#672a88,#fe3efb,#fa0075);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    height:50vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.indexcontainer{
+    margin: auto;
+    max-width: 150px;
+    align-content: center;
+    background-color: ;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: rgb(141, 26, 26);
+}
+
+
+
+/* BUTTONS */
+
+.button_1{
+    width: 150px;
+    font-family:'Roboto','sans-serif';
+    height: 50px;
+    border: none ;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #c3b3c6;
+    box-shadow: inset 0 0 0 0 #000000;
+    font-size: 18px
+
+}
+
+.button_1:hover{
+box-shadow:inset 150px 0 0 0 #000000;
+cursor: pointer;
+}
+
+
+.button_2{
+    width: 150px;
+    font-family:'Roboto','sans-serif';
+    height: 50px;
+    border: none ;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #c3b3c6;
+    box-shadow: inset 0 0 0 0 #000000;
+    font-size: 18px
+
+}
+
+.button_2:hover{
+box-shadow:inset 150px 0 0 0 #000000;
+cursor: pointer;
+}
+
+
+.button_3{
+    width: 150px;
+    height: 50px;
+    font-family:'Roboto','sans-serif';
+    border: none ;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #c3b3c6;
+    box-shadow: inset 0 0 0 0 #000000;
+    font-size: 18px
+
+}
+
+.button_3:hover{
+box-shadow:inset 150px 0 0 0 #000000;
+cursor: pointer;
+}
