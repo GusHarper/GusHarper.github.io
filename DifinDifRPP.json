@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.2.json",
+  "description": "Energy costs index",
+    "title": {
+     "text": [
+      "Educational Reform and Public School Spending"
+    ],
+    "subtitle": "Adjusted revenues per pupil for elementary and secondary education. Source: (NCES + U.S Census Bureau) ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "height": 300,
+  "width": 440,
+  "config": {
+    "view": {"stroke": "transparent"}
+ 
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/DifinDifCleaned2.csv"
+      },
+  
+      "mark": {"type": "line", "color": "#50abe0", "point": "transparent"},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "temporal",
+          "title": "Year",
+          "scale": {"domain": [631152000000, 1009843200000]},
+          
+          "axis": {
+            "grid": false,
+            "gridOpacity": 0.6,
+            "ticks": false,
+            "labelPadding": 5
+          
+          }
+        },
+        "y": {
+          "field": "rpp",
+          "type": "quantitative",
+          "title": "Revenue Per Pupil ($)",
+          "scale": {"domain": [2000,5000]},
+          "axis": {
+            "grid": true,
+            "gridOpacity": 0.6,
+            "ticks": false,
+            "labelPadding": 5
+          }
+          
+        
+        },
+        "color": {
+          "field": "state",
+          "title": null,
+          "scale": {"scheme": "set2", "reverse": true},
+          "legend": {
+            "orient": "bottom-right",
+            "symbolStrokeWidth": 2.5,
+            "labelFontSize": 11
+          }
+        },
+        "strokeDash": {"field": "dash", "legend": null},
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "temporal",
+            "title": "Date"
+           
+          },
+          {"field": "rpp", "type": "quantitative", "title": "Measure"}
+          
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/1993Line.csv"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#0e0e0e",
+        "strokeDash": [10, 6],
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "value", "type": "quantitative"}
+      }
+    },
+
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/GusHarper/GusHarper.github.io/main/NoTreatmentRPPline.csv"
+
+      },
+      "mark": {
+        "type": "line",
+        "color": "#d7b519",
+        "strokeDash": [10,5],
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "value", "type": "quantitative"}
+      }
+    }
+  ]
+}
