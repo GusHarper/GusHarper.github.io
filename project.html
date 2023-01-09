@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Meta Stuff for Phone Formatting -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Title for the page -->
+    <title>Gus Harper Portfolios Page</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="project.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  
+</head>
+
+
+<body>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="Project">
+
+       
+        <h1>Is the U.K Spending Enough on Education? </h1>
+
+
+<!-- Aims -->
+        <h3>Aims</h3>
+
+        <p>Education is a powerful agent of change, providing individuals with the skill-set and adaptability to 
+        improve their standard of living while contributing to social stability and long-term economic growth. 
+        This project aims to provide a background on educational spending in the UK, compare its investment with that
+        of other nations, and assess whether investment in the UK has been sufficient. </p>
+
+        <h3> Background / Graphs </h3>
+
+ <!-- Chart 1: -->
+
+        <div class="chart1" id="ProjectChart1"></div>
+
+        <p>The chart above illustrates how enrolment at the primary, secondary, and tertiary level in the UK rival that of any
+         other nation. However, spending on education in the UK falls short of nations including Sweden, the
+        United States, and Canada. The <a href="https://data.worldbank.org" target="_blank"> World Bank API </a> only 
+        provided data for individual countries and series at a time, so a series of loops were used in 
+        <a href="https://colab.research.google.com/drive/1YwCqySnaC_QRTJCi7e5kC5rkLs1Ecmpo?usp=sharing"
+        target="_blank">Collaboratory</a> to collect and clean data. While data from 2017 was the most complete,
+        missing values still plagued the data set. Another issue was that net tertiary enrolment data was unavailable, so gross values
+        were used instead. Several names from the data also had to be manually changed to match the topojosn names (U.S to U.S.A) </p>
+
+ <!-- Chart 2 -->
+       
+        <div class="chart2" id="ProjectChart2"></div>
+       
+        <p> Expenditure on education has fallen from 13% of total expenditure in the early 2000s to 11.78% in 2021, representing a historic low.
+        However, real levels of spending (aggregate) have increased in recent years. <a href="https://www.gov.uk/government/organisations/hm-treasury"
+        target="_blank">Data </a> was obtained from each year’s annual budget report from the HM Treasury. Aggregate expenditure had to be rebased using a 
+        historical CPI for the UK as it was expressed nominally, and was done in <a href="https://github.com/GusHarper/GusHarper.github.io/blob/main/Government%20Spending%20Data%20Cleaning.do"
+        target="_blank"> Stata.</a> The HM Treasury did not have an API for this data unfortunately, so collection had to be done manually. </p>
+
+ <!-- Chart 3 -->
+
+        <div class="chart3" id="ProjectChart3"></div>
+
+        <p> Expenditure per pupil by LA Maintained Schools fell drastically from 2012-2017 after peaking in 2010, while recent figures from 2019 
+        have indicated expenditure may be picking back up again. <a href="https://www.gov.uk/government/collections/statistics-local-authority-school-finance-data"
+        target="_blank">Data </a> was taken from yearly expenditure reports from the HM Treasury, and was rebased using both a general inflation CPI, and an
+        education-specific inflation CPI, taken from the ONS. Extracting data from the API, along with rebasing, was done in
+        <a href="https://colab.research.google.com/drive/16t2ALYqPB-qIGOZgEy8xsE9fCkgjYLuP?usp=sharing" target="_blank"> Collaboratory</a>. Initially I was unable to extract
+        specific data from the API in it's json format, however was able to later overcome this by converting to a python dictionary. </p>
+
+ <!-- Chart 4 -->
+
+        <div class="chart4" id="ProjectChart4"></div>
+
+        <p>To justify the importance of examining historical spending, the analysis is extended to show correlations 
+        between spending and educational attainment and economic growth. The following regression indicates a positive relationship 
+        between economic growth and spending on education, with a marginal effect of around 0.12. Data was taken from
+        <a href="https://data.worldbank.org" target="_blank">The World Bank</a>. One issue with the regression was reverse
+        causality, as economic growth could cause increases in expenditure, and vice versa. To address this, a 10-year lag was 
+        implemented manually. Additionally, the years 2008-2011 we excluded to avoid bias from the financial crisis. </p>
+
+ <!-- Chart 5 and 6 -->
+
+        <div class="chart5" id="ProjectChart5"></div>
+        <div class="chart6" id="ProjectChart6"></div>
+   
+        <p>To illustrate the effects of increased spending on educational attainment, a natural experiment was used.
+        In 1993, Massachusetts announced an Education Reform Act that promised increased spending on primary
+        and secondary education, while neighboring states Maine and CT did not. The first graph uses Difference-In-Difference techniques to 
+        show the impact of the bill on revenues per pupil, as shown by the dashed yellow line ($858 lower). The second graph illustrates
+        how following a 7-year lag (educational attainment measured at 25, 7 years after graduation), Massachusetts
+        experienced a significant increase in educational attainment from this increased revenue per pupil. Data availability was an issue
+        for these graphs, as the <a href="https://nces.ed.gov/pubs2007/npefs13years/tables_b.asp" target="_blank"> NCES </a> and 
+        <a href="https://www.census.gov/topics/education/educational-attainment/data/tables.html" target="_blank"> U.S. Census Bureau </a> provide 
+        figures dating back to only 1990. Additionally, measurement techniques changed after 2006, making analysis beyond this period difficult.
+        The difference in difference analysis was done in <a href="https://github.com/GusHarper/GusHarper.github.io/blob/main/DifinDif.do" target="_blank"> Stata. </a></p>
+
+
+ <!-- Chart 7 -->
+
+        <div class="chart7" id="ProjectChart7"></div>
+
+        <p>It is useful to examine productivity growth in the UK, as it has slowed drastically over the last several years while aggregate
+        levels also lag behind that of Germany, the U.S, and France. Education is highly related to productivity levels, so this 
+        <a href="https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/datasets/internationalcomparisonsofproductivityfirstestimates" 
+        target ="_blank"> data</a> could indicate higher investment is needed. Data in the CSV file for this graph had to be converted to a tidy format (stacked),
+        as initially only a single country was shown.
+        </p>
+
+ <!-- Conclusions -->
+
+        <h3> Conclusions </h3>
+        <p> Spending on Education in the UK has fallen drastically over the last decade, and has only recently started to 
+        recover. As countries with higher expenditure on education typically also experience higher growth rates and 
+        average educational attainment, it is undoubtedly of great interest for the UK to increase spending. However, it is difficult
+        to draw conclusions and make recommendations given budget constraints, rising inflation, and increasing healthcare costs from the global
+        pandemic and rising share of the population aged over 65. Nevertheless, the UK should look to marginally increase spending 
+        to maintain the upward trajectory seen recently in several key measures, promoting sustained and
+        inclusive economic growth and combatting recently plateauing productivity levels. 
+
+        </p>
+
+
+</body>
+
+
+<script>
+
+
+    //Define charts:
+    var myChart1 = "EducationMapFinal.json";
+    var myChart2 = "GovernmentExpenditure.json";
+    var myChart3 = "expperpupil.json";
+    var myChart4 = "Regression.json"
+    var myChart5 = "DifinDifRPP.json";
+    var myChart6 = "DifinDifEDUC.json";
+    var myChart7 = "Productivity.json";
+
+
+
+    // Embed charts:
+    vegaEmbed('#ProjectChart1', myChart1);
+    vegaEmbed('#ProjectChart2', myChart2);
+    vegaEmbed('#ProjectChart3', myChart3);
+    vegaEmbed('#ProjectChart4', myChart4);
+    vegaEmbed('#ProjectChart5', myChart5);
+    vegaEmbed('#ProjectChart6', myChart6);
+    vegaEmbed('#ProjectChart7', myChart7);
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
